@@ -1,0 +1,3 @@
+# Routes
+GET    /                          controllers.HomeController.index
+POST   /test                      controllers.HomeController.lyftTest(request: Request)
